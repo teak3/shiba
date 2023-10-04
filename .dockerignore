@@ -1,0 +1,41 @@
+# Exclude node_modules since we will install dependencies in the Dockerfile
+node_modules
+
+# Exclude development and build-related files
+.next
+out
+.cache
+build
+dist
+
+# Exclude environment-specific configuration files (e.g., .env.local)
+.env*
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Exclude version control files and directories
+.git
+.gitignore
+
+# Exclude package manager files
+package-lock.json
+yarn.lock
+
+# Exclude editor-specific files
+.vscode
+.idea
+
+# Exclude test and documentation files (customize as needed)
+__tests__
+docs
+
+# Exclude log files
+*.log
+
+# Exclude miscellaneous files and directories
+.DS_Store
+Thumbs.db
+node_modules
+*.swp

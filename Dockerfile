@@ -1,5 +1,5 @@
 # Stage 1: Build the Next.js app
-FROM node:18 as builder
+FROM node:18-alpine
 
 # Set the working directory in the container
 WORKDIR /app
